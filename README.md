@@ -149,16 +149,19 @@ const abhishek = {
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=codewithabhi2003&show_icons=true&theme=tokyonight&hide_border=true&title_color=b44bf7&icon_color=7209b7&text_color=ffffff&bg_color=0d1117" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithabhi2003&layout=compact&theme=tokyonight&hide_border=true&title_color=b44bf7&text_color=ffffff&bg_color=0d1117" />
 
-<br/>
+<br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=codewithabhi2003&theme=tokyonight&hide_border=true&ring=7209b7&fire=b44bf7&currStreakLabel=b44bf7" />
 
-<br/>
+<br/><br/>
+
+<img src="https://raw.githubusercontent.com/codewithabhi2003/codewithabhi2003/output/github-snake-dark.svg" alt="GitHub Contribution Snake" />
+
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithabhi2003&bg_color=0d1117&color=b44bf7&line=7209b7&point=ffffff&area=true&hide_border=true" />
 
 </div>
-
 ---
 
 ## 🏆 GitHub Trophies
