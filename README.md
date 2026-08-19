@@ -126,7 +126,7 @@ const abhishek = {
 
 <div align="center">
 
-<!-- 3D contribution graph — rebuilt daily by .github/workflows/profile-3d.yml, see setup notes in chat -->
+<!-- 3D contribution graph — rebuilt daily by .github/workflows/snake.yml -->
 <img src="https://raw.githubusercontent.com/codewithabhi2003/codewithabhi2003/main/profile-3d-contrib/profile-green-animate.svg" width="95%" alt="3D contribution graph" />
 
 <br/><br/>
