@@ -54,40 +54,27 @@ const abhishek = {
 
 **Frontend**
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind" />
 
 **Backend**
 
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<img src="https://skillicons.dev/icons?i=nodejs,express,py" />
 
 **Database & Cloud**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,aws" />
 
 **DevOps & Tools**
 
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<img src="https://skillicons.dev/icons?i=docker,githubactions,vercel,git,postman" />
 
-**AI & Payments**
+**AI, Real-Time & Payments**
 
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq_LLaMA_3.1-F54036?style=for-the-badge&logo=meta&logoColor=white)
+![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
 
 </div>
 
@@ -95,20 +82,10 @@ const abhishek = {
 
 ## 🏗️ Featured Projects
 
-<div align="center">
-
-<a href="https://rewear-dusky.vercel.app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codewithabhi2003&repo=ReWear-backend&theme=tokyonight&hide_border=true&title_color=b44bf7&icon_color=7209b7" />
-</a>
-<a href="https://jobportal-frontend-ten.vercel.app">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=codewithabhi2003&repo=job-portal-frontend&theme=tokyonight&hide_border=true&title_color=b44bf7&icon_color=7209b7" />
-</a>
-
-</div>
-
-<br/>
-
 ### 🛍️ [ReWear — AI-Powered Pre-Loved Fashion Marketplace](https://rewear-dusky.vercel.app)
+
+![Stars](https://img.shields.io/github/stars/codewithabhi2003/ReWear-backend?style=flat-square&color=7209b7&labelColor=0d1117)
+![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/ReWear-backend?style=flat-square&color=b44bf7&labelColor=0d1117)
 
 > *Replaced traditional search filters with a conversational AI layer*
 
@@ -128,6 +105,9 @@ const abhishek = {
 
 ### 💼 [Job Portal — Full-Stack MERN Application](https://jobportal-frontend-ten.vercel.app)
 
+![Stars](https://img.shields.io/github/stars/codewithabhi2003/job-portal-frontend?style=flat-square&color=7209b7&labelColor=0d1117)
+![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/job-portal-frontend?style=flat-square&color=b44bf7&labelColor=0d1117)
+
 > *Role-based job marketplace for Recruiters and Job Seekers, built end-to-end*
 
 | Feature | Details |
@@ -146,6 +126,11 @@ const abhishek = {
 
 <div align="center">
 
+<!-- 3D contribution graph — rebuilt daily by .github/workflows/profile-3d.yml, see setup notes in chat -->
+<img src="https://raw.githubusercontent.com/codewithabhi2003/codewithabhi2003/main/profile-3d-contrib/profile-green-animate.svg" width="95%" alt="3D contribution graph" />
+
+<br/><br/>
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=codewithabhi2003&show_icons=true&theme=tokyonight&hide_border=true&title_color=b44bf7&icon_color=7209b7&text_color=ffffff&bg_color=0d1117" />
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithabhi2003&layout=compact&theme=tokyonight&hide_border=true&title_color=b44bf7&text_color=ffffff&bg_color=0d1117" />
 
@@ -162,6 +147,7 @@ const abhishek = {
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithabhi2003&bg_color=0d1117&color=b44bf7&line=7209b7&point=ffffff&area=true&hide_border=true" />
 
 </div>
+
 ---
 
 ## 🏆 GitHub Trophies
@@ -215,6 +201,6 @@ I'm actively looking for **Full Stack Developer** opportunities where I can cont
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:b44bf7&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:b44bf7&height=120&section=footer&animation=fadeIn" />
 
 </div>
