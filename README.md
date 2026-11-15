@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:b44bf7&height=200&section=header&text=Abhishek%20Vishwakarma&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20MERN%20%7C%20Real-Time%20Systems%20%7C%20AI%20Integrations&descAlignY=58&descSize=16&animation=fadeIn" />
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=7209B7&center=true&vCenter=true&random=false&width=600&lines=Building+production-grade+MERN+apps;Real-time+WebSocket+systems;AI+API+integrations+🤖;Razorpay+%2B+HMAC+payment+flows;Shipping+features%2C+not+just+code.)](https://git.io/typing-svg)
+<img src="./header.svg" alt="Abhishek Vishwakarma – Full Stack Developer" width="100%" />
+<br/>
+<img src="./typing.svg" alt="Building production-grade full stack products" width="100%" />
 
 <br/>
 
@@ -16,12 +16,12 @@
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 <a href="https://resume-iota-rust.vercel.app/">
-  <img src="https://img.shields.io/badge/Resume-7209b7?style=for-the-badge&logo=googledrive&logoColor=white" />
+  <img src="https://img.shields.io/badge/Resume-0e7490?style=for-the-badge&logo=googledrive&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=codewithabhi2003&color=7209b7&style=flat-square&label=Profile+Views" />
+<img src="https://komarev.com/ghpvc/?username=codewithabhi2003&color=0e7490&style=flat-square&label=Profile+Views" />
 
 </div>
 
@@ -32,18 +32,19 @@
 ```javascript
 const abhishek = {
   location    : "Mumbai, India 🇮🇳",
-  role        : "Full Stack Developer (MERN)",
-  focus       : ["Real-time systems", "AI integrations", "Scalable APIs"],
+  role        : "Full Stack Developer (MERN + Next.js)",
+  focus       : ["AI integrations (RAG, LLM APIs)", "Real-time systems", "Scalable APIs"],
   currentlyOn : ["TypeScript", "System Design", "Next.js"],
   reachMe     : "abhishekvishwakarma1149@gmail.com",
   openTo      : "Full Stack / Backend Developer opportunities 🚀"
 };
 ```
 
-- 🔭 Shipping production-grade apps with **real-time WebSocket systems** + **AI API integrations**
-- 🤖 Integrated **Google Gemini** (vision) + **Groq LLaMA 3.1** with fault-tolerant multi-key rotation
+- 🔭 Shipping production-grade apps with **real-time systems (WebRTC, WebSockets)** and **AI integrations**
+- 🧠 Built **RAG pipelines** with embeddings + vector search (**pgvector**, hybrid keyword + semantic ranking with **Reciprocal Rank Fusion**)
+- 🤖 Integrated **Google Gemini**, **Groq (LLaMA 3.1, Whisper)** and **Cohere** with fault-tolerant multi-key rotation and model fallbacks
 - 💳 Built **Razorpay** payment flows with HMAC server-side signature verification
-- 🔐 Strong on secure backend — **JWT, RBAC, HMAC, Bcrypt, Socket.io auth middleware**
+- 🔐 Strong on secure backend — **JWT, RBAC, multi-tenant isolation, Bcrypt, Socket.io auth middleware**
 - 🛠️ Every project is live, deployed, and handles real-world edge cases
 
 ---
@@ -54,11 +55,11 @@ const abhishek = {
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,tailwind" />
+<img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,html,css,tailwind" />
 
 **Backend**
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,py" />
+<img src="https://skillicons.dev/icons?i=nodejs,express,py,prisma" />
 
 **Database & Cloud**
 
@@ -72,6 +73,8 @@ const abhishek = {
 
 ![Google Gemini](https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Groq](https://img.shields.io/badge/Groq_LLaMA_3.1-F54036?style=for-the-badge&logo=meta&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere_Embeddings-39594D?style=for-the-badge&logoColor=white)
+![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
 ![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
@@ -82,10 +85,43 @@ const abhishek = {
 
 ## 🏗️ Featured Projects
 
+### 🎥 [IntellMeet — AI-Powered Meeting & Collaboration Platform](https://intellmeet-zeta.vercel.app/)
+
+> *Video meetings that transcribe, translate, summarize and answer questions about past meetings*
+
+| Feature | Details |
+|---|---|
+| 📹 Real-time | WebRTC video conferencing with Socket.IO signaling, chat, presence, reactions and screen sharing behind a JWT-verified socket handshake |
+| 🎙️ Transcription | Groq Whisper (`whisper-large-v3-turbo`) for English + Hindi; large audio auto-chunked with FFmpeg (up to 25 MB / 180 min) |
+| 🌐 Translation & summaries | Gemini (`gemini-2.5-flash`) with per-language caching and map-reduce summaries for long transcripts |
+| 🔎 Hybrid RAG search | Gemini embeddings (768-dim) + MongoDB `$text` keyword search merged with Reciprocal Rank Fusion; cited answers verified against the database |
+| 🛡️ Access control | Authorization enforced inside every MongoDB query, so AI search never crosses workspace boundaries |
+| 🔐 Security | Helmet, strict CORS, input sanitization, bcrypt, token versioning, per-user AI rate limiting (20 req/min) |
+
+**Stack:** `MongoDB` `Express.js` `React.js` `Node.js` `WebRTC` `Socket.IO` `Groq Whisper` `Gemini` `Tailwind CSS` `Framer Motion`
+
+---
+
+### 📈 [HermesX — AI Customer Feedback Intelligence Platform](https://hermesx-wine.vercel.app/)
+
+> *Multi-tenant SaaS that turns raw customer feedback into themes, sentiment and answers*
+
+| Feature | Details |
+|---|---|
+| 🏢 Multi-tenant SaaS | 3 workspace roles (Admin, Analyst, Viewer) with tenant isolation enforced across 25+ API endpoints |
+| 🧠 AI layer | Groq for sentiment + theme classification; Cohere 1,024-dim embeddings with PostgreSQL pgvector powering RAG-based "Ask HermesX" |
+| 📥 Data pipeline | Validated CSV ingestion (up to 1,000 records per upload) → AI classification → embeddings → analytics and Voice-of-Customer reports |
+| 🎨 Frontend | 30+ reusable UI components, responsive dashboards and analytics visualizations |
+| 🔐 Security | NextAuth.js authentication, server-side authorization, workspace-level tenant filtering, Zod input validation |
+
+**Stack:** `Next.js 14` `TypeScript` `PostgreSQL` `pgvector` `Prisma` `NextAuth.js` `Groq` `Cohere` `Tailwind CSS`
+
+---
+
 ### 🛍️ [ReWear — AI-Powered Pre-Loved Fashion Marketplace](https://rewear-dusky.vercel.app)
 
-![Stars](https://img.shields.io/github/stars/codewithabhi2003/ReWear-backend?style=flat-square&color=7209b7&labelColor=0d1117)
-![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/ReWear-backend?style=flat-square&color=b44bf7&labelColor=0d1117)
+![Stars](https://img.shields.io/github/stars/codewithabhi2003/ReWear-backend?style=flat-square&color=0e7490&labelColor=0d1117)
+![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/ReWear-backend?style=flat-square&color=22d3ee&labelColor=0d1117)
 
 > *Replaced traditional search filters with a conversational AI layer*
 
@@ -105,8 +141,8 @@ const abhishek = {
 
 ### 💼 [Job Portal — Full-Stack MERN Application](https://jobportal-frontend-ten.vercel.app)
 
-![Stars](https://img.shields.io/github/stars/codewithabhi2003/job-portal-frontend?style=flat-square&color=7209b7&labelColor=0d1117)
-![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/job-portal-frontend?style=flat-square&color=b44bf7&labelColor=0d1117)
+![Stars](https://img.shields.io/github/stars/codewithabhi2003/job-portal-frontend?style=flat-square&color=0e7490&labelColor=0d1117)
+![Last Commit](https://img.shields.io/github/last-commit/codewithabhi2003/job-portal-frontend?style=flat-square&color=22d3ee&labelColor=0d1117)
 
 > *Role-based job marketplace for Recruiters and Job Seekers, built end-to-end*
 
@@ -131,12 +167,12 @@ const abhishek = {
 
 <br/><br/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=codewithabhi2003&show_icons=true&theme=tokyonight&hide_border=true&title_color=b44bf7&icon_color=7209b7&text_color=ffffff&bg_color=0d1117" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithabhi2003&layout=compact&theme=tokyonight&hide_border=true&title_color=b44bf7&text_color=ffffff&bg_color=0d1117" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=codewithabhi2003&show_icons=true&theme=tokyonight&hide_border=true&title_color=22d3ee&icon_color=0e7490&text_color=ffffff&bg_color=0d1117" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=codewithabhi2003&layout=compact&theme=tokyonight&hide_border=true&title_color=22d3ee&text_color=ffffff&bg_color=0d1117" />
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com?user=codewithabhi2003&theme=tokyonight&hide_border=true&ring=7209b7&fire=b44bf7&currStreakLabel=b44bf7" />
+<img src="https://streak-stats.demolab.com?user=codewithabhi2003&theme=tokyonight&hide_border=true&ring=0e7490&fire=22d3ee&currStreakLabel=22d3ee" />
 
 <br/><br/>
 
@@ -144,7 +180,7 @@ const abhishek = {
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithabhi2003&bg_color=0d1117&color=b44bf7&line=7209b7&point=ffffff&area=true&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=codewithabhi2003&bg_color=0d1117&color=22d3ee&line=0e7490&point=ffffff&area=true&hide_border=true" />
 
 </div>
 
@@ -173,7 +209,7 @@ const abhishek = {
 | 🔒 | Cybersecurity Fundamentals | DataCom |
 | 🐳 | Containerization & Deployment | Docker |
 
-[![Certificates](https://img.shields.io/badge/🔗_View_All_Certificates-7209b7?style=for-the-badge)](https://tinyurl.com/abhi-certificates)
+[![Certificates](https://img.shields.io/badge/🔗_View_All_Certificates-0e7490?style=for-the-badge)](https://tinyurl.com/abhi-certificates)
 
 </div>
 
@@ -196,11 +232,11 @@ I'm actively looking for **Full Stack Developer** opportunities where I can cont
 </a>
 &nbsp;
 <a href="https://portfolio-tau-lilac-98.vercel.app">
-  <img src="https://img.shields.io/badge/View_Portfolio-7209b7?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/View_Portfolio-0e7490?style=for-the-badge&logo=vercel&logoColor=white" />
 </a>
 
 <br/><br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7209b7,100:b44bf7&height=120&section=footer&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,100:22d3ee&height=120&section=footer&animation=fadeIn" />
 
 </div>
